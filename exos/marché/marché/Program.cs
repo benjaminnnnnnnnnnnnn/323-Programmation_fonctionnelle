@@ -38,7 +38,7 @@ namespace marché
                                           where cell.produit == "Pastèques" && cell.num == marchands.Max(x => x.num)
                                           select cell).First();
             
-
+            //not linQ
             foreach (var cell in workSheet["C2:C75"])
             {
 
